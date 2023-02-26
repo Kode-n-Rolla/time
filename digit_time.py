@@ -5,7 +5,7 @@ import sevseg # Import sevseg.py for display seven-segment numbers
 def dt():
     while True:  # Loop to get a gradation time
         try:
-            gradation_time = int(input('Are you want to chose 12 or 24 gradation? - '))
+            gradation_time = int(input('Are you want to choose 12 or 24 gradation? - '))
             if gradation_time == 12 or gradation_time == 24:       # Valid correct input
                 break
             else:
