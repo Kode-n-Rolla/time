@@ -5,8 +5,6 @@ git clone
 python main.py
 ```
 
-This program allows you to set a countdown and display the current time.
-
 main.py - the main file in the project, where you choose the mode (countdown or current time)
 countdown.py - stopwatch code
 digit_time - display the current time
